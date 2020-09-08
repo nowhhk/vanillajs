@@ -1,0 +1,80 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+body {
+  background-color: var(--color-black);
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+header {
+  display: flex;
+  margin-bottom: 1em;
+}
+.logo {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  width: 20em;
+  justify-content: space-between;
+}
+
+.nav__icon {
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+}
+.nav__span {
+  width: 3em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav__span.blue {
+  background-color: var(--color-blue);
+}
+
+.nav__span.yellow {
+  background-color: var(--color-yellow);
+}
+.nav__span.pink {
+  background-color: var(--color-pink);
+}
+
+.items {
+  border: 1px solid var(--color-light-grey);
+  height: 50vh;
+  overflow: scroll;
+}
+
+.item {
+  background-color: var(--color-white);
+  padding: 0.5em;
+  width: 20em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.item__thumbnail {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+}

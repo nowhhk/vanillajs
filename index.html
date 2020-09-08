@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping</title>
+    <link href="/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <img class="logo" src="./img/logo.png" />
+      </header>
+      <nav>
+        <img
+          class="nav__icon tshirt"
+          src="./img/blue_t.png"
+          data-key="type"
+          data-value="tshirt"
+        />
+        <img
+          class="nav__icon skirt"
+          src="./img/blue_s.png"
+          data-key="type"
+          data-value="skirt"
+        />
+        <img
+          class="nav__icon pants"
+          src="./img/blue_p.png"
+          data-key="type"
+          data-value="pants"
+        />
+        <div class="nav__span blue">
+          <span class="blue" data-key="color" data-value="blue">Blue</span>
+        </div>
+        <div class="nav__span yellow">
+          <span class="yellow" data-key="color" data-value="yellow"
+            >Yellow</span
+          >
+        </div>
+        <div class="nav__span pink">
+          <span class="pink" data-key="color" data-value="pink">Pink</span>
+        </div>
+      </nav>
+      <ul class="items"></ul>
+    </div>
+  </body>
+</html>
