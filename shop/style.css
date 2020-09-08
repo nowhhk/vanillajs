@@ -39,6 +39,9 @@ nav {
   height: 3em;
   cursor: pointer;
 }
+.nav__icon:hover {
+  transform: scale(1.2);
+}
 .nav__span {
   width: 3em;
   height: 3em;
@@ -46,6 +49,9 @@ nav {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.nav__span:hover {
+  transform: scale(1.2);
 }
 .nav__span.blue {
   background-color: var(--color-blue);
